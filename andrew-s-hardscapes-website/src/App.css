@@ -1,0 +1,54 @@
+:root {
+  --primary-color: #2c3e50; /* Dark blue-gray */
+  --secondary-color: #34495e; /* Slightly lighter blue-gray */
+  --accent-color: #e67e22; /* Orange */
+  --light-color: #ecf0f1; /* Light gray */
+  --text-color: #333; /* Dark gray for text */
+
+  --heading-font: 'Roboto', sans-serif; /* Example font */
+  --body-font: 'Open Sans', sans-serif; /* Example font */
+}
+
+body {
+  font-family: var(--body-font);
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+}
+
+h1, h2, h3 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+header {
+  background-color: var(--light-color);
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+footer {
+  background-color: var(--secondary-color);
+  color: var(--light-color);
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

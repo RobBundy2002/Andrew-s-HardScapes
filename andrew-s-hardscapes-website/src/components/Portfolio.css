@@ -1,0 +1,17 @@
+.portfolio {
+  padding: 20px;
+}
+
+.portfolio-grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  background-color: #eee; /* Placeholder background */
+}
