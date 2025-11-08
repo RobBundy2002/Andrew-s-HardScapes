@@ -1,12 +1,16 @@
 :root {
-  --primary-color: #2c3e50; /* Dark blue-gray */
-  --secondary-color: #34495e; /* Slightly lighter blue-gray */
-  --accent-color: #e67e22; /* Orange */
-  --light-color: #ecf0f1; /* Light gray */
-  --text-color: #333; /* Dark gray for text */
+  --primary-color: #43a047; /* A slightly darker and more saturated green */
+  --secondary-color: #6c757d; /* A softer gray */
+  --accent-color: #00acc1; /* A more vibrant teal */
+  --light-color: #f0fff0; /* A very light green */
+  --text-color: #495057; /* A slightly lighter dark gray */
 
-  --heading-font: 'Roboto', sans-serif; /* Example font */
-  --body-font: 'Open Sans', sans-serif; /* Example font */
+  --green-light: #c8e6c9; /* A very light, pastel green */
+  --green-dark: #1b5e20; /* A dark, forest green */
+  --gray-light: #eceff1; /* An even lighter gray */
+
+  --heading-font: 'Montserrat', sans-serif;
+  --body-font: 'Roboto', sans-serif;
 }
 
 body {

@@ -1,6 +1,6 @@
 .footer {
-  background: linear-gradient(135deg, var(--secondary-color, #2c3e50) 0%, #34495e 100%);
-  color: var(--light-color, #ecf0f1);
+  background: linear-gradient(135deg, var(--green-dark) 0%, #455a64 100%);
+  color: var(--light-color);
   padding: 20px 40px;
   position: fixed;
   bottom: 0;
@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px);
   z-index: 1000;
   box-sizing: border-box;
@@ -95,7 +95,7 @@
   color: #fff;
   background: rgba(255, 255, 255, 0.2);
   transform: translateY(-3px) scale(1.1);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
 }
 
 .footer-social i {

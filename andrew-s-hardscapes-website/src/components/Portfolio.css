@@ -1,5 +1,6 @@
 .portfolio {
   padding: 20px;
+  background-color: #f8f9fa;
 }
 
 .portfolio-grid {
@@ -9,9 +10,20 @@
   gap: 20px;
 }
 
+.portfolio-item {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+  transform: scale(1.03);
+}
+
 .portfolio-item img {
   width: 100%;
   height: auto;
   border-radius: 5px;
-  background-color: #eee; /* Placeholder background */
+  background-color: #f0fff0; /* Placeholder background */
 }
